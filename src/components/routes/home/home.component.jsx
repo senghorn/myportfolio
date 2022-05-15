@@ -1,6 +1,6 @@
 import Directory from "../../directory/directory.components";
 
-function App() {
+function Home() {
   const categories = [
     {
       id: 1,
@@ -32,4 +32,4 @@ function App() {
   return <Directory categories={categories}></Directory>;
 }
 
-export default App;
+export default Home;
