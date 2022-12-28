@@ -4,27 +4,27 @@ function Home() {
   const categories = [
     {
       id: 1,
-      title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      title: "TA Portal",
+      imageUrl: "https://i.ibb.co/VDVtdhR/Homepage.png",
     },
     {
       id: 2,
-      title: "jackets",
+      title: "Capstone Project",
       imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
     },
     {
       id: 3,
-      title: "sneakers",
+      title: "LifeStyle App",
       imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
     },
     {
       id: 4,
-      title: "womens",
+      title: "Placeholder",
       imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
     },
     {
       id: 5,
-      title: "mens",
+      title: "Placeholder",
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
@@ -35,5 +35,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;
