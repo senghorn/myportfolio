@@ -2,8 +2,15 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
 
+import { useParams } from 'react-router-dom';
+
 const Shop = () => {
-  return <h1>I am the shop page.</h1>;
+  const { id } = useParams();
+  return (
+    <div>
+      This is the project page for item with id: {id}
+    </div>
+  );
 };
 
 const App = () => {
@@ -11,7 +18,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
-        <Route path="shop" element={<Shop />} />
+        <Route path="project/:id" element={<Shop />} />
       </Route>
     </Routes>
   );
