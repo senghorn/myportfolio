@@ -1,7 +1,8 @@
 .navigation {
   height: 70px;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: space-between;
   margin-bottom: 25px;
 
@@ -9,18 +10,54 @@
     height: 100%;
     width: 70px;
     padding: 25px;
+
   }
 
+  .nav-title{
+    display: flex ;
+    align-items: center;
+    
+    
+    .name{
+      font-weight: bold;
+      font-size: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .contact{
+      margin-left: 20px;
+      font-size: 15px;
+      font-family: cursive;
+    }
+  }
+
+
   .nav-links-container {
-    width: 50%;
-    height: 100%;
-    display: flex;
+    display: flex ;
     align-items: center;
     justify-content: flex-end;
 
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
+    }
+
+    .resume {
+      text-align: center;
+      font-weight: bold;
+      animation: animate 1.5s linear infinite;
+    }
+
+    @keyframes animate{
+      0%{
+        opacity: 0;
+      }
+      50%{
+        opacity: 0.7;
+      }
+      100%{
+        opacity: 0;
+      }
     }
   }
 }

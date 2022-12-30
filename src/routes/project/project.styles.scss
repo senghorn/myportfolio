@@ -1,0 +1,30 @@
+.project{
+    margin-left: 10%;
+    margin-top: 40px;
+
+    .title{
+        font-size: 34px;
+        margin-right: 10%;
+        font-weight: bold;
+        width: fit-content;
+        padding: 10px;
+        background-color: bisque;
+    }
+
+    .description-container{
+        margin-top: 80px;
+    }
+
+    .description{
+        font-size: 22px;
+    }
+
+    .image-container{
+        margin-top: 60px;
+    }
+
+    .image{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+}
