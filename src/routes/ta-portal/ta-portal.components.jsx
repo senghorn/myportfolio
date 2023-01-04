@@ -2,7 +2,7 @@ import './ta-portal.styles.scss'
 
 const Description = () => {
     return (
-        <div className="description">
+        <div className="ta-portal-description">
             <h1>TL;DR (Application Description)</h1>
             <p>Our application, built using ASP.NET and featuring the Identity framework, allows users to perform a variety of tasks depending on their role.</p>
             <ul>
@@ -39,9 +39,9 @@ const Description = () => {
 const Project = () => {
 
     return (
-        <div className='container'>
+        <div className='ta-portal-container'>
             <div className='app-link-container'>
-                Try the <a href='https://23.22.245.194/' className="resume" target={"_blank"} rel="noreferrer" title="Visit the TA Portal web site"><span className='title-style'>TA Portal</span></a> here!
+                Try my <a href='https://23.22.245.194/' className="resume" target={"_blank"} rel="noreferrer" title="Visit the TA Portal web site"><span className='title-style'>TA Portal</span></a> here!
                 TOP SECRET: admin@utah.edu pass:123ABC!@#def
             </div>
             <div className='tech-list'>

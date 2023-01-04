@@ -3,7 +3,7 @@ import Directory from "../../components/directory/directory.components";
 function Home() {
   const categories = [
     {
-      id: "resume",
+      id: "aboutme",
       title: "About Me",
       imageUrl: "https://i.ibb.co/WFN8xhT/y.jpg",
     },

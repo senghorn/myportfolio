@@ -1,4 +1,4 @@
-.description {
+.ta-portal-description {
     font-size: 16px;
     line-height: 1.5;
     color: #333333;
@@ -40,13 +40,13 @@ li {
     font-weight: bold;
 }
 
-.container {
+.ta-portal-container {
     width: 90%;
-    height: 800px;
+    height: auto;
     display: block;
     margin: auto;
-    margin-bottom: 80px;
-
+    margin-bottom: 10vh;
+    
     .tech-list {
         font-size: 24px;
     }
@@ -64,7 +64,7 @@ li {
 
     .title-style {
         font-family: 'Bebas Neue', cursive;
-        font-size: 2em;
+        font-size: 1.2em;
         position: relative;
         transform: translate(-50%, -50%);
         background-image: linear-gradient(gold, gold);
