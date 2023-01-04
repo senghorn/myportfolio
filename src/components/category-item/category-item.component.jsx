@@ -12,7 +12,6 @@ const CategoryItem = ({ category }) => {
       ></div>
       <div className="category-body-container">
         <h2>{title}</h2>
-        <p>View Details</p>
       </div>
     </div>
   );

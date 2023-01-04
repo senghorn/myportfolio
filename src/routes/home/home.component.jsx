@@ -5,7 +5,7 @@ function Home() {
     {
       id: "resume",
       title: "About Me",
-      imageUrl: "https://i.ibb.co/gdvWDxj/Seng-Horn-Rith-Resume.jpg",
+      imageUrl: "https://i.ibb.co/WFN8xhT/y.jpg",
     },
     {
       id: "taportal",
