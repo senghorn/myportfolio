@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import { ReactComponent as CrownLogo } from "../../assets/home.svg"
 import './navigation.styles.scss'
 import myResume from '../../assets/Seng_Horn_Rith_Resume.pdf'
 import HomeIcon from '@mui/icons-material/Home';

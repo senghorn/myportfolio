@@ -1,9 +1,5 @@
-## This project uses React Router DOM and SASS extension.
+# Before start:
+npm install
 
-## BEFORE STARTING THE APP, RUN THESE:
-
-## Installs react router dom
-npm i -D react-router-dom
-
-## Installs sass file extensions and functions
-npm install node-sass --save
+# Then,
+npm start
