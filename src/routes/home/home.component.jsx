@@ -22,11 +22,6 @@ function Home() {
       title: "LifeStyle App",
       imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
     },
-    {
-      id: "5",
-      title: "Placeholder",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-    },
   ];
 
   return (

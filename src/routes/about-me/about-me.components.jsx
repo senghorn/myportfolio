@@ -17,6 +17,8 @@ const AboutMe = () => {
             <div className='about-me-container'>
                 <div className='about-me-box'>
                     <div className='title-style'>About Me</div>
+                    <div className='name'>Seng Horn Rith</div>
+                    <br/>
                     <p>
                         I am current a senior undergraduate student at the University of Utah studying Computer Science.
                         <br />
