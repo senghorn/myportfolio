@@ -10,7 +10,7 @@ import LifeStyle from "./routes/lifestyle/lifestyle.components";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Navigation />}>
+      <Route path="/myportfolio" element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path="project/:id" element={<Project />} />
         <Route path="taportal" element={<TAPortal/>}/>
