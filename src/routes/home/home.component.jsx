@@ -16,12 +16,12 @@ function Home() {
     {
       id: "capstone",
       title: "Capstone Project",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      imageUrl: "https://i.ibb.co/GRxyygt/OnOpen.png",
     },
     {
       id: "lifestyle",
       title: "LifeStyle App",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+      imageUrl: "https://i.ibb.co/WcMw6V0/kotlin.jpg",
     },
   ];
 
