@@ -2,9 +2,7 @@ import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
 import './navigation.styles.scss'
 import myResume from '../../assets/Seng_Horn_Rith_Resume.pdf'
-import HomeIcon from '@mui/icons-material/Home';
 import logo from "../../assets/cat.ico";
-import { borderRadius } from "@mui/system";
 
 const Navigation = () => {
   return (

@@ -4,9 +4,14 @@ import ImageContainer from '../../components/image-container/image-container.com
 
 const Project = () => {
     const images = [
-        { src: 'https://source.unsplash.com/1000x800', alt: 'Image 1' },
-        { src: 'https://source.unsplash.com/1200x900', alt: 'Image 2' },
-        { src: 'https://source.unsplash.com/1400x700', alt: 'Image 3' },
+        { src: 'https://i.ibb.co/p2JJ8Sf/Screenshot-82.png', alt: 'Image 1' },
+        { src: 'https://i.ibb.co/fSvK3Zk/Screenshot-83.png', alt: 'Image 2' },
+        { src: 'https://i.ibb.co/2nbqL7N/Screenshot-84.png', alt: 'Image 3' },
+        { src: 'https://i.ibb.co/T4BLHRR/Screenshot-85.png', alt: 'Image 1' },
+        { src: 'https://i.ibb.co/LYrX7Vc/Screenshot-86.png', alt: 'Image 2' },
+        { src: 'https://i.ibb.co/xC5xhvG/Screenshot-87.png', alt: 'Image 3' },
+        { src: 'https://i.ibb.co/5R1DGVJ/Screenshot-88.png', alt: 'Image 1' },
+
     ];
     return (
         <div className='ta-portal-container'>
