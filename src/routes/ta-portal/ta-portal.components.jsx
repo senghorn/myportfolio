@@ -1,47 +1,17 @@
 import './ta-portal.styles.scss'
-
-const Description = () => {
-    return (
-        <div className="ta-portal-description">
-            <h1>TL;DR (Application Description)</h1>
-            <p>Our application, built using ASP.NET and featuring the Identity framework, allows users to perform a variety of tasks depending on their role.</p>
-            <ul>
-                <li>
-                    <span className="highlight">Administrators</span> have the highest level of access and can:
-                    <ul>
-                        <li>view all applications</li>
-                        <li>manage user roles</li>
-                        <li>view chart data on course enrollments</li>
-                    </ul>
-                </li>
-                <li>
-                    <span className="highlight">Applicants</span> can:
-                    <ul>
-                        <li>create their own applications for TA positions</li>
-                        <li>edit their own applications</li>
-                        <li>delete their own applications</li>
-                    </ul>
-                </li>
-                <li>
-                    <span className="highlight">Professors</span> can:
-                    <ul>
-                        <li>view existing applications</li>
-                        <li>provide feedback to applicants</li>
-                    </ul>
-                    <p>However, professors cannot edit the applications themselves.</p>
-                </li>
-            </ul>
-            <p>Overall, this application streamlines the TA application process and makes it easy for administrators, applicants, and professors to access and manage the information they need.</p>
-        </div>
-    );
-}
+import Description from '../../components/description/description.components';
+import ImageContainer from '../../components/image-container/image-container.components';
 
 const Project = () => {
-
+    const images = [
+        { src: 'https://source.unsplash.com/1000x800', alt: 'Image 1' },
+        { src: 'https://source.unsplash.com/1200x900', alt: 'Image 2' },
+        { src: 'https://source.unsplash.com/1400x700', alt: 'Image 3' },
+    ];
     return (
         <div className='ta-portal-container'>
             <div className='app-link-container'>
-                Try my <a href='https://23.22.245.194/' className="resume" target={"_blank"} rel="noreferrer" title="Visit the TA Portal web site"><span className='title-style'>TA Portal</span></a> here!
+                Try my <a href='https://23.22.245.194/' className="resume" target={"_blank"} rel="noreferrer" title="Visit the TA Portal web site"><span className='page-title-style'>TA Portal</span></a> here!
                 TOP SECRET: admin@utah.edu pass:123ABC!@#def
             </div>
             <div className='tech-list'>
@@ -56,24 +26,8 @@ const Project = () => {
                 </i>
             </div>
             <br />
-            <div >
-                <Description />
-            </div>
-            <div class="image-container">
-                <div class="box">
-                    <img src="https://source.unsplash.com/1000x800" />
-                </div>
-                <div class="box">
-                    <img src="https://source.unsplash.com/1000x802" />
-                </div>
-                <div class="box">
-                    <img src="https://source.unsplash.com/1000x804" />
-                </div>
-                <div class="box">
-                    <img src="https://source.unsplash.com/1000x806" />
-                </div>
-            </div>
-
+            <Description />
+            <ImageContainer images={images} />
         </div>
     );
 };

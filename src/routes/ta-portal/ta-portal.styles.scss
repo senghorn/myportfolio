@@ -29,13 +29,12 @@ ul {
 li {
     margin-bottom: 10px;
 }
-.app-link-container{
+
+.app-link-container {
     font-size: 24px;
     margin-bottom: 40px;
 }
-.app-link{
-    font-weight: bold;
-}
+
 .highlight {
     font-weight: bold;
 }
@@ -46,7 +45,7 @@ li {
     display: block;
     margin: auto;
     margin-bottom: 10vh;
-    
+
     .tech-list {
         font-size: 24px;
     }
@@ -54,32 +53,6 @@ li {
     .app-description {
         font-size: 24px;
     }
-
-    .tech-image {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        width: 200px;
-        height: 200px;
-    }
-
-    .title-style {
-        font-family: 'Bebas Neue', cursive;
-        font-size: 1.2em;
-        position: relative;
-        transform: translate(-50%, -50%);
-        background-image: linear-gradient(gold, gold);
-        background-size: 100% 10px;
-        background-repeat: no-repeat;
-        background-position: 100% 0%;
-        transition: background-size .7s, background-position .5s ease-in-out;
-    }
-
-    .title-style:hover {
-        background-size: 100% 100%;
-        background-position: 0% 100%;
-        transition: background-position .7s, background-size .5s ease-in-out;
-    }
-
 }
 
 .image-container {
@@ -107,7 +80,7 @@ li {
 }
 
 .box>span {
-    font-size: 3.8vh;
+    font-size: 1.2em;
     display: block;
     text-align: center;
     height: 10vh;

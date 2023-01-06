@@ -1,4 +1,5 @@
 import Directory from "../../components/directory/directory.components";
+import "./home.styles.scss"
 
 function Home() {
   const categories = [
@@ -25,7 +26,7 @@ function Home() {
   ];
 
   return (
-    <div>
+    <div className="home-container">
       <Directory categories={categories}></Directory>
     </div>
   );

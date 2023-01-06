@@ -1,6 +1,7 @@
 .about-me-container {
     width: 90%;
     height: auto;
+    min-height: 50vh;
     margin: auto;
     margin-bottom: 10vh;
     display: flex;
@@ -22,7 +23,7 @@
 
         .title-style {
             width: 18%;
-            font-size: 2em;
+            font-size: 36px;
             position: relative;
             background-image: linear-gradient(gold, gold);
             background-size: 100% 10px;
@@ -31,7 +32,13 @@
             transition: background-size .7s, background-position .5s ease-in-out;
         }
 
-        .name{
+        .title-style:hover {
+            background-size: 100% 100%;
+            background-position: 0% 100%;
+            transition: background-position .7s, background-size .5s ease-in-out;
+        }
+
+        .name {
             font-size: 22px;
             font-weight: bold;
         }
@@ -44,26 +51,4 @@
         margin-right: auto;
         border-radius: 1%;
     }
-}
-
-.contact-container {
-    width: 80%;
-    margin: auto;
-    font-family: 'Open Sans';
-    margin-bottom: 10vh;
-
-    .title {
-        font-size: 32px;
-    }
-
-    .contact-list {
-        margin-left: 4vw;
-        font-weight: lighter;
-        .email {
-            font-size: 20px;
-        }
-    }
-
-
-
 }
