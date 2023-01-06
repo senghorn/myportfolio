@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/senghorn/myportfolio/static/css/main.d91716ad.css",
-    "main.js": "/senghorn/myportfolio/static/js/main.04b777da.js",
-    "static/js/787.d7ece244.chunk.js": "/senghorn/myportfolio/static/js/787.d7ece244.chunk.js",
-    "static/media/cat.ico": "/senghorn/myportfolio/static/media/cat.120feb22a4cabd4a3c9e.ico",
-    "static/media/Seng_Horn_Rith_Resume.pdf": "/senghorn/myportfolio/static/media/Seng_Horn_Rith_Resume.db26373e10b315f1e112.pdf",
-    "index.html": "/senghorn/myportfolio/index.html",
-    "main.d91716ad.css.map": "/senghorn/myportfolio/static/css/main.d91716ad.css.map",
-    "main.04b777da.js.map": "/senghorn/myportfolio/static/js/main.04b777da.js.map",
-    "787.d7ece244.chunk.js.map": "/senghorn/myportfolio/static/js/787.d7ece244.chunk.js.map"
+    "main.css": "/myportfolio/static/css/main.d91716ad.css",
+    "main.js": "/myportfolio/static/js/main.ccec94fd.js",
+    "static/js/787.d7ece244.chunk.js": "/myportfolio/static/js/787.d7ece244.chunk.js",
+    "static/media/cat.ico": "/myportfolio/static/media/cat.120feb22a4cabd4a3c9e.ico",
+    "static/media/Seng_Horn_Rith_Resume.pdf": "/myportfolio/static/media/Seng_Horn_Rith_Resume.db26373e10b315f1e112.pdf",
+    "index.html": "/myportfolio/index.html",
+    "main.d91716ad.css.map": "/myportfolio/static/css/main.d91716ad.css.map",
+    "main.ccec94fd.js.map": "/myportfolio/static/js/main.ccec94fd.js.map",
+    "787.d7ece244.chunk.js.map": "/myportfolio/static/js/787.d7ece244.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d91716ad.css",
-    "static/js/main.04b777da.js"
+    "static/js/main.ccec94fd.js"
   ]
 }
