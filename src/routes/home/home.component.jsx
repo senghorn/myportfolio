@@ -18,11 +18,6 @@ function Home() {
       title: "Capstone Project",
       imageUrl: "https://i.ibb.co/GRxyygt/OnOpen.png",
     },
-    {
-      id: "lifestyle",
-      title: "LifeStyle App",
-      imageUrl: "https://i.ibb.co/WcMw6V0/kotlin.jpg",
-    },
   ];
 
   return (

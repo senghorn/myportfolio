@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
+import HomeIcon from '@mui/icons-material/Home';
 import './navigation.styles.scss'
 import myResume from '../../assets/Seng_Horn_Rith_Resume.pdf'
 import logo from "../../assets/cat.ico";
@@ -9,7 +10,7 @@ const Navigation = () => {
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to="/myportfolio">
-          <img src={logo} alt="Logo" style={{width:70, height:70, borderRadius:20 }}/>
+          <HomeIcon style={{ fontSize: 64 }} />
         </Link>
         <div class="container">
           <div class="neon">Seng</div>
