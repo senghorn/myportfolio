@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Changa', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(45deg, rgb(213, 225, 211), rgb(234, 236, 170));
+  background: linear-gradient(45deg, rgb(212, 218, 212), rgb(212, 212, 212));
 }
 
 .page-title-style {
   font-size: 36px;
   position: relative;
-  background-image: linear-gradient(gold, gold);
+  background-image: linear-gradient(rgb(251, 254, 160), hsl(0, 6%, 17%));
   background-size: 100% 10px;
   background-repeat: no-repeat;
   background-position: 100% 0%;
@@ -29,9 +29,5 @@ code {
 
 a {
   text-decoration: none;
-  color:black;
-}
-
-*{
-  box-sizing: bord;
+  color: rgb(53, 53, 53);
 }

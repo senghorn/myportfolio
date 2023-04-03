@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <div className='about-me-box'>
                     <div className='title-style'>About Me</div>
                     <div className='name'>Seng Horn Rith</div>
-                    <br/>
+                    <br />
                     <p>
                         I am current a senior undergraduate student at the University of Utah studying Computer Science.
                         <br />
@@ -21,8 +21,8 @@ const AboutMe = () => {
                             ReactNative, JavaScript, HTML, MySQL, and Node</b> (more details on my resume).
                         <br />
                         <br />
-                        In my free time, I'm a <b>machine learning enthusiast</b> and a budding cyber
-                        security expert. I also like to stay active by lifting weights and running (because if I don't, my chair
+                        I have a wide interests in tech, I'm a <b>machine learning </b> and  <b>cyber security</b> enthusiast.
+                        I also like to stay active by lifting weights and running (because if I don't, my chair
                         might start calling me a "couch potato").
                     </p>
                 </div >
