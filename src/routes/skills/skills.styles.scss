@@ -1,0 +1,22 @@
+.container {
+    width: 80%;
+    margin: auto;
+
+    .category {
+        flex-direction: row;
+        margin-bottom: 30px;
+
+        .title {
+            font-size: x-large;
+            color: rgb(104, 113, 205);
+        }
+
+        .tech-list {
+            display: flex;
+            flex-direction: row;
+            font-size: medium;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    }
+}

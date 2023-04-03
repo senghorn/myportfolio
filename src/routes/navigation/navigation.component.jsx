@@ -18,8 +18,8 @@ const Navigation = () => {
         </div>
         <div className="nav-links-container">
           <a href={myResume} className="resume" target={"_blank"} rel="noreferrer">My Resume</a>
-          <Link className="nav-link" to="/myportfolio/aboutme">
-            About Me
+          <Link className="nav-link" to="/myportfolio/skills">
+            Skills
           </Link>
         </div>
       </div>
