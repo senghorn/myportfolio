@@ -15,8 +15,8 @@ function Home() {
     },
     {
       id: "capstone",
-      title: "Capstone Project",
-      imageUrl: "https://i.ibb.co/GRxyygt/OnOpen.png",
+      title: "CareCoord",
+      imageUrl: "https://i.ibb.co/CWr7YHX/Colorful-App-Icon-1.png",
     },
   ];
 
