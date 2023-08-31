@@ -3,7 +3,6 @@ import { Outlet, Link } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import './navigation.styles.scss'
 import myResume from '../../assets/Seng_Horn_Rith_Resume.pdf'
-import logo from "../../assets/cat.ico";
 
 const Navigation = () => {
   return (

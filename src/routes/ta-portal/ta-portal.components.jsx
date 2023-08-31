@@ -17,7 +17,7 @@ const Project = () => {
         <div className='ta-portal-container'>
             <div className='app-link-container'>
                 Try my <a href='https://23.22.245.194/' className="resume" target={"_blank"} rel="noreferrer" title="Visit the TA Portal web site"><span className='page-title-style'>TA Portal</span></a> here!
-                TOP SECRET: admin@utah.edu pass:123ABC!@#def
+                Login: admin@utah.edu[admin role] u0000000@utah.edu[applicant role] with password:123ABC!@#def
             </div>
             <div className='tech-list'>
                 Get ready for the ultimate <b>technology trifecta</b>!

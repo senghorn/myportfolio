@@ -13,14 +13,13 @@ const Capstone = () => {
 
     return (<div className='capstone-container'>
         <div>
-            <span className='page-title-style'>Capstone: CareCoord Mobile App</span>
+            <span className='page-title-style'><a href='https://www.youtube.com/watch?v=qvnKpLGQH4M'>Capstone: CareCoord Mobile App</a></span>
         </div>
         <br />
-        <br />
+        <br/>
         <div className='tech-list'>
             Get ready for the ultimate <b>technology trifecta</b>(again?)!
             <br />
-
             <li><strong>Front-end:</strong> <em>React Native</em>, <em>Expo library</em> (a tried-and-true combination for a smooth and snappy user experience)</li>
             <li><strong>Back-end:</strong> <em>Express.js</em>, hosted on AWS EC2 (because sometimes you just need to let your backend do the talking)</li>
             <li><strong>Database:</strong> <em>MySQL</em>, hosted on a shiny AWS RDS instance (the heart and soul of any app)</li>
