@@ -10,7 +10,7 @@ import Skills from './routes/skills/skills.components';
 const App = () => {
   return (
     <Routes>
-      <Route path="/portfolio" element={<Navigation />}>
+      <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path="project/:id" element={<Project />} />
         <Route path="taportal" element={<TAPortal />} />
