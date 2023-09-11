@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.64d97ef4.css",
-    "main.js": "/portfolio/static/js/main.9c897c44.js",
-    "static/js/787.93497169.chunk.js": "/portfolio/static/js/787.93497169.chunk.js",
+    "main.js": "/portfolio/static/js/main.5d3463f5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Seng_Horn_Rith_Resume.pdf": "/portfolio/static/media/Seng_Horn_Rith_Resume.fbedfe566117cd589489.pdf",
     "index.html": "/portfolio/index.html",
     "main.64d97ef4.css.map": "/portfolio/static/css/main.64d97ef4.css.map",
-    "main.9c897c44.js.map": "/portfolio/static/js/main.9c897c44.js.map",
-    "787.93497169.chunk.js.map": "/portfolio/static/js/787.93497169.chunk.js.map"
+    "main.5d3463f5.js.map": "/portfolio/static/js/main.5d3463f5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64d97ef4.css",
-    "static/js/main.9c897c44.js"
+    "static/js/main.5d3463f5.js"
   ]
 }
