@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
-        <Link className="logo-container" to="/myportfolio">
+        <Link className="logo-container" to="/portfolio">
           <HomeIcon style={{ fontSize: 64 }} />
         </Link>
         <div class="container">
@@ -17,7 +17,7 @@ const Navigation = () => {
         </div>
         <div className="nav-links-container">
           <a href={myResume} className="resume" target={"_blank"} rel="noreferrer">My Resume</a>
-          <Link className="nav-link" to="/myportfolio/skills">
+          <Link className="nav-link" to="/portfolio/skills">
             Skills
           </Link>
         </div>

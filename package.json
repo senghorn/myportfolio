@@ -1,7 +1,7 @@
 {
   "name": "Seng Portfolio",
   "version": "0.1.0",
-  "homepage": "https://senghorn.github.io/myportfolio",
+  "homepage": "https://senghorn.github.io/portfolio",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
